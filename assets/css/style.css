@@ -129,3 +129,40 @@ main .row{
 }
 
 /* #endregion Main */
+
+/* #region Footer */
+
+footer{
+    background-color: var(--bg-footer);
+    padding: 1rem;
+    color: white;
+}
+
+footer .row{
+    justify-content: space-between;
+}
+
+footer h4,
+footer h5{
+    padding: 0.5rem;
+}
+
+.legal a{
+    text-decoration: none;
+    color: white;
+    padding: 0rem 0.5rem;
+}
+
+.social i{
+    padding: 0rem 0.3rem;
+}
+
+/* #endregion Footer */
+
+/* #region Hover */
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* #endregion Hover */
