@@ -17,6 +17,10 @@ img{
     max-width: 100%;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 /* #region Utilities */
 
 .container{
@@ -83,9 +87,22 @@ main .row{
     margin-bottom: 3rem;
 }
 
+main .col-4{
+    margin: 0rem 1rem;
+}
+
 .product{
     position: relative;
-    margin: 0rem 1rem;
+}
+
+.img_hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.product:hover .img_hover{
+    display: none;
 }
 
 .dress {
@@ -163,11 +180,3 @@ footer h5{
 }
 
 /* #endregion Footer */
-
-/* #region Hover */
-
-a:hover{
-    text-decoration: underline;
-}
-
-/* #endregion Hover */
