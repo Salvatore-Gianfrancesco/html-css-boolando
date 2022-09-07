@@ -39,6 +39,10 @@ img{
 header{
     background-color: var(--bg-header);
     padding: 1rem 0rem;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
 }
 
 header .row{
@@ -75,7 +79,8 @@ header img{
 /* #region Main */
 
 main .row{
-    margin: 3rem 0rem;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
 }
 
 .product{
