@@ -13,6 +13,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+img{
+    max-width: 100%;
+}
+
 /* #region Utilities */
 
 .container{
@@ -68,3 +72,60 @@ header img{
 
 /* #endregion Header */
 
+/* #region Main */
+
+main .row{
+    margin: 3rem 0rem;
+}
+
+.product{
+    position: relative;
+    margin: 0rem 1rem;
+}
+
+.dress {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.discounted_price{
+    color: red;
+    font-weight: bold;
+}
+
+.full_price{
+    text-decoration: line-through;
+}
+
+.label{
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+}
+
+.discount,
+.sustainability{
+    color: white;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.discount{
+    background-color: red;
+}
+
+.sustainability{
+    background-color: green;
+}
+
+.like{
+    font-size: 2rem;
+    background: white;
+    padding: 0rem 0.7rem;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+}
+
+/* #endregion Main */
